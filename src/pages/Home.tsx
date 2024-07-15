@@ -9,7 +9,7 @@ const Home: React.FC = () => {
   const homeStore = useHomeStore();
   const { t, i18n } = useTranslation(); // Destructure i18next instance
 
-  const changeLanguage = (lang) => {
+  const changeLanguage = (lang:string) => {
     i18n.changeLanguage(lang); // Change language using i18next instance
   };
 
