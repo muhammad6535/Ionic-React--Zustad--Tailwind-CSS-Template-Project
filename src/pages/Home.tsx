@@ -8,7 +8,7 @@ const Home: React.FC = () => {
   const homeStore = useHomeStore();
   const { t, i18n } = useTranslation(); // Destructure i18next instance
 
-  const changeLanguage = (lang:string) => {
+  const changeLanguage = (lang: string) => {
     i18n.changeLanguage(lang); // Change language using i18next instance
   };
 
@@ -18,7 +18,7 @@ const Home: React.FC = () => {
         <IonToolbar>
           <IonTitle className='text-blue'>{t('welcome')}</IonTitle>
           {/* Language buttons */}
-   
+
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
