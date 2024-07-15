@@ -1,5 +1,4 @@
 import React from 'react';
-import ExploreContainer from '../components/ExploreContainer';
 import useHomeStore from '../stores/homeStore'; // Assuming homeStore is a state management solution
 import { useTranslation } from 'react-i18next';
 import LanguageButton from '../components/LanguageButton';
